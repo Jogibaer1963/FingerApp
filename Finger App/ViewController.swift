@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     @IBAction func guessButton(_ sender: Any) {
         let diceRoll = String(arc4random_uniform(6))
-        
+        // mal sehen wie das funzt
         if fingerValue.text == diceRoll {
             displayResult.text = "Cool, richtig geraten"
         } else if fingerValue.text != diceRoll {
